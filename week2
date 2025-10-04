@@ -1,0 +1,32 @@
+Week 2 – BabySoC Fundamentals & Functional Modelling
+
+Objective
+
+The aim of this task is to develop a clear understanding of System-on-Chip (SoC) fundamentals and to practice functional modelling of the BabySoC using Icarus Verilog and GTKWave. This combines theoretical learning with hands-on simulation.
+
+What is a System-on-Chip (SoC)?
+
+A System-on-Chip (SoC) is an integrated circuit that contains the major building blocks of a computing system on a single chip. It typically includes:
+
+CPU (Processor Core): Executes instructions and drives system operations.
+
+Memory: Stores both instructions and data.
+
+Peripherals: Handle input/output and provide specialized functions.
+
+Interconnect: Connects and manages communication between CPU, memory, and peripherals.
+
+
+This high level of integration makes SoCs compact, efficient, and widely used in modern devices such as smartphones, IoT systems, and embedded applications.
+
+BabySoC as a Learning Model
+
+The BabySoC is a simplified representation of a real-world SoC. While it lacks the full complexity of commercial SoCs, it provides a clear and accessible way to understand how the CPU, memory, and peripherals interact through an interconnect. By working with BabySoC, learners can grasp the essentials of SoC design without being overwhelmed by intricate details.
+
+Importance of Functional Modelling
+
+Functional modelling is carried out before RTL design and physical implementation. It allows designers to validate system functionality at a higher level, ensuring that the design behaves as expected before diving into low-level details. This approach helps identify and fix design flaws early, saving time and resources in the development process.
+
+Conclusion
+
+This week’s task highlights the fundamentals of SoC design and introduces functional modelling as an essential step in the design flow. By experimenting with the BabySoC model, learners gain valuable insight into the interactions within an SoC and build a strong foundation for more advanced topics in RTL and physical design.
